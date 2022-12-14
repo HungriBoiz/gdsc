@@ -52,3 +52,26 @@
     color: #fff;
     z-index: 1;
 }
+
+.Landtext1:hover{
+    background: -webkit-linear-gradient(345deg, #42ff00 0%, #00e0ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*z-index: 10;*/
+    height: 220px;
+}
+.Landtext2:hover{
+    background: -webkit-linear-gradient(345deg, #ff5c00 0%, #fff500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*z-index: 3;*/
+    height: 210px;
+}
+.Landtext3:hover{
+    background: -webkit-linear-gradient(345deg, #4356ff 0%, #00a3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*z-index: 3;*/
+    height: 220px;
+
+}
