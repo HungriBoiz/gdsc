@@ -99,6 +99,13 @@ body {
   width: 200px;
 }
 
-.eventbutton{
-  
+.eventbutton1{
+  grid-column: 5 / 6;
+  grid-row: 1 / 2; 
+}
+
+.eventbutton2{
+  grid-column: 5 / 6;
+  grid-row: 4 / 4;
+  height: 30px; 
 }
