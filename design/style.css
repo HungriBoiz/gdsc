@@ -56,10 +56,15 @@ body {
     }
   }
 
-  center{
-    font-size: 40px;
-    font-weight: 600;
-  }
+center{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #4285F4;
+  border-color: #4285F4;
+}
 
 .events{
   background-color: #4285F4;
