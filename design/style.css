@@ -116,10 +116,12 @@ center{
 
 .facimg{
   grid-area: 2 / 2 / 3 / 3;
+  border-radius: 100px;
 }
 
 .leadimg{
   grid-area: 2 / 6 / 3 / 7;
+  border-radius: 100px;
 }
 
 .factext{
