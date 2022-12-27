@@ -106,30 +106,30 @@ center{
   grid-area: 2 / 4 / 3 / 5;
 }
 
-teamcard{
+.teamcard{
   display: grid;
-  grid-template-columns: 20px 1fr 3fr 1fr 2fr 1fr 3fr 1fr 20px;
-  grid-template-rows: 20px 1fr 200px 20px;
-  grid-column-gap: 0px;
+  grid-template-columns: 20px 200px 40px 200px 20px;
+  grid-template-rows: 20px 1fr 1fr 20px;
+  grid-column-gap: 10px;
   grid-row-gap: 0px;
 }
 
 .facimg{
-  grid-area: 2 / 3 / 3 / 4;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .leadimg{
-  grid-area: 2 / 7 / 3 / 8;
+  grid-area: 2 / 6 / 3 / 7;
 }
 
 .factext{
-  grid-area: 3 / 3 / 4 / 4; 
+  grid-area: 3 / 2 / 4 / 3;
 }
 
 .leadtext{
-  grid-area: 3 / 7 / 4 / 8;
+  grid-area: 3 / 6 / 4 / 7;
 }
 
 .yeartext{
-  grid-area: 2 / 5 / 4 / 6;
+  grid-area: 2 / 4 / 4 / 5;
 }
