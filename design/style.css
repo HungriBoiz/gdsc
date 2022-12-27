@@ -135,3 +135,10 @@ center{
 .yeartext{
   grid-area: 2 / 4 / 4 / 5;
 }
+
+.team{
+  display:grid;
+  grid-template-columns : 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px;
+  grid-template-rows: 20px 1fr 20px 1fr 1fr 20px 1fr 20px;
+}
+
