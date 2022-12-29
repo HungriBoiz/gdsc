@@ -88,9 +88,15 @@ center{
 }
 
 .team{
-  display:grid;
-  grid-template-columns : 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px;
-  grid-template-rows: 20px 1fr 20px 1fr 1fr 20px 1fr 20px;
+  background-color: #fff;
+  color: #000;
+  padding: 40px;
+}
+
+.team .card{
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
 }
 
 .bg{
@@ -168,4 +174,22 @@ center{
 
 .carousel-inner:hover .middle{
   opacity: 1;
+}
+
+.card {
+  background-color: #EA4335;
+  color: #fff;
+  border-color: #EA4335;
+}
+.card img {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.members {
+  background-color: #EA4335;
+  color: #fff;
+  padding: 40px;
 }
