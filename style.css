@@ -96,51 +96,57 @@ center{
 .bg{
   background-color: blue;
 }
+
 .navbar{
   padding: 0;
 }
+
 .navbar-toggler:focus{
   box-shadow: none;
 }
+
 .ul-bg{
   background-color: blue;
 }
+
 .carousel-heading {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
   margin: 30px 0;
 }
+
 .carousel-item {
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .carousel-item-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  width: 80%;
+  color: rgb(0, 0, 0);
+  font-size:25px;
+  padding:16px 32px;
 }
+
 .hovertrig:hover{
   filter: brightness(50%);
 }
+
 .container img:hover{
   filter: brightness(50%);
 }
+
 .text{
   color: rgb(0, 0, 0);
   font-size:25px;
   padding:16px 32px;
 }
+
 .container:hover .image{
   opacity:0.5;
 }
+
 .middle{
   transition: .5s ease;
   opacity:0;
@@ -151,6 +157,15 @@ center{
   -ms-transform: translate(-50%,-50%);
   text-align: center;
 }
+
 .container:hover .middle{
-  opacity:1;
+  opacity: 1;
+}
+
+.carousel-inner .image{
+  opacity: 0.5;
+}
+
+.carousel-inner:hover .middle{
+  opacity: 1;
 }
