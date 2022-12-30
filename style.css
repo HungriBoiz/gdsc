@@ -304,3 +304,18 @@ div:hover .middle{
      0% {left:100%; transform: scale(0.2) translate(-50%,-50%);}
       100% {left: -13%; transform: scale(0.2) translate(-50%,-50%);}
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 60px;
+    grid-gap: auto;
+  }
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-container {
+    padding: 80px;
+  }
+ 
